@@ -1,8 +1,6 @@
 import { Project, ConnectionMap, TopicConnection } from './types';
 
 // The base URL for the raw images in your GitHub repository.
-// Note: I used the '.oi' extension as provided in your link, but standard GitHub Pages repos usually end in '.io'.
-// If your images don't load, check if the repo name is 'alicmi.github.io'.
 const REPO_BASE_URL = "https://raw.githubusercontent.com/alicmi/alicmi.github.io/main/images/";
 
 export const PROJECTS: Project[] = [
