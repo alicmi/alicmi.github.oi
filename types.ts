@@ -4,10 +4,16 @@ export interface Project {
     img: string;
     text: string;
     fullText?: string;
+    secondaryImg?: string;
 }
 
 export interface ConnectionMap {
     [key: string]: string[];
+}
+
+export interface TopicConnection {
+    source: string;
+    target: string;
 }
 
 export interface NodeData {
