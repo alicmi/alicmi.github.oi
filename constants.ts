@@ -1,11 +1,16 @@
 import { Project, ConnectionMap, TopicConnection } from './types';
 
+// The base URL for the raw images in your GitHub repository.
+// Note: I used the '.oi' extension as provided in your link, but standard GitHub Pages repos usually end in '.io'.
+// If your images don't load, check if the repo name is 'alicmi.github.io'.
+const REPO_BASE_URL = "https://raw.githubusercontent.com/alicmi/alicmi.github.oi/main/images/";
+
 export const PROJECTS: Project[] = [
     { 
         id: "p1", 
         label: "Refin(d)ing KISD", 
-        img: "https://picsum.photos/seed/kisd/800/600",
-        secondaryImg: "https://picsum.photos/seed/kisd2/800/400", 
+        img: `${REPO_BASE_URL}re()KISD1.jpg`,
+        secondaryImg: `${REPO_BASE_URL}Refinding%20KISD%20Detail.jpg`, 
         text: "Every organized form of a group of people once in a while needs a moment in time to step back and reflect on their ways of working, their goals and structures. Same goes for a university, especially when there is so little structure from top to bottom like there is at KISD.\nThis Project started with the will to shape the place we care for and the feeling that there was a need for conversation. People were feeling less responsible for the place because they are lacking community, feedback and the feeling of impact and Self-efficacy. I find this very interesting because to me my university has always felt a bit like a small testing ground for societal phenomena since we can see a similar sense learned helplessness.\nTherefore we started a survey first asking people how they feel towards their design education right now, what they love about KISD and what they would like to change. We visualized the answers because of the frequent feedback of how much just talking about it had helped with the frustration that had been rising.\nTo establish a reoccurring event we partnered with an existing working group who would facilitate a yearly questionnaire and an event that works as a discussion forum where ideas, needs and wishes can be formulated. We followed the ideas of playful learning, eye level discussions and diverse design methods for the final iteration process." 
     },
     { 
