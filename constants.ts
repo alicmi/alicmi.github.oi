@@ -7,22 +7,24 @@ export const PROJECTS: Project[] = [
     { 
         id: "p1", 
         label: "Refin(d)ing KISD", 
-        img: `${REPO_BASE_URL}re()KISD1.jpg`,
-        secondaryImg: `${REPO_BASE_URL}Refinding%20KISD%20Detail.jpg`, 
+        img: `${REPO_BASE_URL}re-KISD1.jpg`,
+        secondaryImg: `${REPO_BASE_URL}refindingKISDposter.png`, 
         text: "Every organized form of a group of people once in a while needs a moment in time to step back and reflect on their ways of working, their goals and structures. Same goes for a university, especially when there is so little structure from top to bottom like there is at KISD.\nThis Project started with the will to shape the place we care for and the feeling that there was a need for conversation. People were feeling less responsible for the place because they are lacking community, feedback and the feeling of impact and Self-efficacy. I find this very interesting because to me my university has always felt a bit like a small testing ground for societal phenomena since we can see a similar sense learned helplessness.\nTherefore we started a survey first asking people how they feel towards their design education right now, what they love about KISD and what they would like to change. We visualized the answers because of the frequent feedback of how much just talking about it had helped with the frustration that had been rising.\nTo establish a reoccurring event we partnered with an existing working group who would facilitate a yearly questionnaire and an event that works as a discussion forum where ideas, needs and wishes can be formulated. We followed the ideas of playful learning, eye level discussions and diverse design methods for the final iteration process." 
     },
     { 
         id: "p2", 
         label: "Real Life Quest", 
-        img: "https://picsum.photos/seed/quest/800/600",
-        secondaryImg: "https://picsum.photos/seed/quest2/800/400",
+        img: `${REPO_BASE_URL}English-Quest-examples-Real-Life-Quest.png`,
+        secondaryImg: `${REPO_BASE_URL}Real-life-quest-Layout-App.png`,
         text: "With Real Life Quest, we have designed a socio-effective concept that is brought to life in the form of an everyday app. Because we are becoming increasingly alienated from our \"Umwelt\" and less happy due to a lack of interaction, we want to promote resonance and sharpen our awareness of details and microcosms.\nOur app provides its users with playful micro-adventures in the form of spontaneous, funny, social, and educational everyday quests. We chose the symbolic image of a soap bubble for the design because it embodies the lightheartedness associated with childhood, as well as the bubbles in which we move.\nOur design is intuitive and minimalistic because we promote real time rather than screen time. The app can be operated with just a few gestures and the user interface consists of only three different screens. In addition to receiving and collecting personal quests, you can also do analog group quests with friends, create own quests and create memories together." 
     },
     { 
         id: "p3", 
         label: "Chaos Postcards", 
-        img: "https://picsum.photos/seed/chaos/800/600",
-        secondaryImg: "https://picsum.photos/seed/chaos2/800/400",
+        img: `${REPO_BASE_URL}Postcards_Chaos_front1.png`,
+        secondaryImg: `${REPO_BASE_URL}Postcards_Chaos_back.png`,
+        secondaryImg: `${REPO_BASE_URL}Postcards_Chaos_front2.png`,
+        secondaryImg: `${REPO_BASE_URL}Postcards_Chaos_front3.png`,
         text: "With this set of postcards I want to bring awareness to the topic of landscape manipulation and its consequences for the ecosystem.\nThe seemingly pretty patterns we see on earths surface often mean chaos and destruction for animals and other non human life." 
     },
     { 
@@ -35,14 +37,13 @@ export const PROJECTS: Project[] = [
     { 
         id: "p5", 
         label: "Co-Heat Wuppertal", 
-        img: "https://picsum.photos/seed/heat/800/600",
-        secondaryImg: "https://picsum.photos/seed/heat2/800/400",
+        img: `${REPO_BASE_URL}CoHeat-Thermostat-Rendering.png`,
         text: "With our product–service system Co-Heat, we offer an approach to addressing the future of sustainable, shared energy resources in multi-party residential buildings. Following the Transition Design Guide developed by the Wuppertal Institute, we mapped out our user journey, future megatrends, and the Sustainable Development Goals our project addresses.\nIn addition to an information board and an online platform for user support, maintenance, and individual settings, we developed, based on my initial draft, a new kind of thermostat. This thermostat allows users to select a limited base temperature while still enabling additional heating through a timer-controlled function.\nOur product–service system therefore enables housing communities to collectively manage their energy consumption, encourages low energy and water use by rewarding sustainable habits, and supports property owners in meeting political climate-protection regulations." 
     },
     { 
         id: "p6", 
         label: "Lebendiges Köln", 
-        img: "https://picsum.photos/seed/koln/800/600",
+        img: `${REPO_BASE_URL}lebendiges-köln-Philosophie.png`,
         secondaryImg: "https://picsum.photos/seed/koln2/800/400",
         text: "The wilderness city map Living Cologne invites you to discover the city’s shared habitat from a non-human perspective, offering an introduction to a post-anthropocentric worldview. Exploration routes and benches lead to seemingly familiar places, which can be experienced in entirely new ways through the animal stories on the website.\nHere, you can not only learn, but also share your own observations and help animals become more visible and better understood.\nI believe that recognition is the first step toward collective well-being. Paying attention to more-than-human life in our human-made cities reminds us that we are never separate from nature. We share spaces we are responsible for—and with sharing comes caring." 
     },
